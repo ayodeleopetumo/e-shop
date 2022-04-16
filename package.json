@@ -1,0 +1,41 @@
+{
+  "name": "e-shop",
+  "version": "1.0.0",
+  "description": "An e-commerce MEAN stack app",
+  "main": "app.js",
+  "scripts": {
+    "start:server": "nodemon backend/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayodeleopetumo/e-shop.git"
+  },
+  "keywords": [
+    "e-commerce",
+    "MEAN",
+    "MongoDB",
+    "Angular",
+    "Typescript",
+    "Node",
+    "Express",
+    "JWT"
+  ],
+  "author": "Ayodele Opetumo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayodeleopetumo/e-shop/issues"
+  },
+  "homepage": "https://github.com/ayodeleopetumo/e-shop#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.6.2"
+  }
+}
