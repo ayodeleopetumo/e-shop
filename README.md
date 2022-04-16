@@ -30,4 +30,3 @@ password: testpaasword
 - Run `npm install` in your terminal in the project folder.
 - Run `npm run serve` for a FE dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 - Run `npm run start:server` to start the NodeJS backend for the application.
-- 
